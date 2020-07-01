@@ -1,6 +1,4 @@
 # algorithm
 ```sh
-algorithm practice using c/c++.
+algorithm practice using c/c++/python.
 ```
-
-# Content
