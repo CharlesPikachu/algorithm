@@ -23,7 +23,7 @@ def QuickSort(array, left, right):
         array[j] = array[i]
     array[j] = pivot
     QuickSort(array, left, i-1)
-    QuickSort(array, left+1, right)
+    QuickSort(array, i+1, right)
     return array
 
 
