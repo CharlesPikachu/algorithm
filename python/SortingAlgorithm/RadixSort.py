@@ -17,8 +17,8 @@ def RadixSort(array):
         buckets = [[] for k in range(10)]
         for j in array:
             buckets[int(j / (10 ** i)) % 10].append(j)
-        output = [m for bucket in buckets for m in bucket]
-    return output
+        array = [m for bucket in buckets for m in bucket]
+    return array
 
 
 '''test'''
